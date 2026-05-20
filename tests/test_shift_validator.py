@@ -321,7 +321,7 @@ def test_multiple_errors_accumulate():
     assert len(result["errors"]) >= 3
 
 
-def test_minor_overtirne_and_rest_validation():
+def test_minor_overtime_and_rest_validation():
     """Test combination: minor with insufficient rest."""
     result = validate_shift("Young Worker", 17, 11, "day", "staff", rest_hours_since_last_shift=6)
     assert result["valid"] is False
