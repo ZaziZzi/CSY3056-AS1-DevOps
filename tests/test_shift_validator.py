@@ -17,7 +17,7 @@ from src.shift_validator import validate_shift
 def test_valid_day_shift_staff():
     """Test valid day shift for staff member."""
     result = validate_shift("John Doe", 25, 8, "day", "staff")
-    assert result["valid"] is False
+    assert result["valid"] is True
     assert len(result["errors"]) == 0
     assert len(result["warnings"]) == 0
 
