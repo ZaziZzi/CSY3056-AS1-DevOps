@@ -1,4 +1,6 @@
 """
+Note: Agent was used to help design this file and test_shift_validator.py, but code was written by me.
+
 Shift Validator Module
 
 A comprehensive workforce scheduling validation engine for DevOps and Software Testing.
